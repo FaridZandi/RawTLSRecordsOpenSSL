@@ -5,7 +5,7 @@
 |                                                |
 | In order to get the Raw TLS records when       |
 | reading decrypted data from the OpenSSL,       |
-| use the SSL_Read_Tor function instead of the   |
+| use the SSL_Read_tor function instead of the   |
 | original SSL_Read function.                    |
 | You have to give the fuction two extra         |
 | arguments: first a char* for it to write to,   |
